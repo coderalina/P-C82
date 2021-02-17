@@ -6,6 +6,7 @@ var mouseEvent = "empty";//stores the 4 kinds of mouseEvents
     
     color = "black";
     width_of_line = 1;
+    radius = 1;
     console.log("muhahahahah")
 
     //1st mouseEvent-mouseDown
@@ -14,6 +15,7 @@ var mouseEvent = "empty";//stores the 4 kinds of mouseEvents
     {
         color=document.getElementById("color").value;
         width_of_line = document.getElementById("width_of_line").value;
+        radius = document.getElementById("width_of_line").value;
         mouseEvent = "mouseDown";
     }
 
